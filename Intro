@@ -1,0 +1,18 @@
+->written simple language
+algorithm:Step by step procedure to finish a task
+1.Step by step 2.pseudo code 3.Flow chart
+Variable: a named storage contaniner that stores values
+Datatype: the type of dara has been stored
+1.Int:Integer type
+example:x=9;
+2.float: decimals
+example:x=3.54
+3.Striong:series of characters
+exampke: x="Poojitha"
+
+#include<stdio.h>
+void main(){
+int a,b;
+printf("Enter the values");
+scanf("%d%d",&a,&b);
+printf()
