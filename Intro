@@ -16,3 +16,16 @@ int a,b;
 printf("Enter the values");
 scanf("%d%d",&a,&b);
 printf()
+
+
+
+
+
+2.Logical:AND,OR,NOT
+A>B AND A>C
+e1 e2 output
+0   0  0
+1   0  0
+0   1  0
+1   1  1
+
