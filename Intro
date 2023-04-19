@@ -154,6 +154,19 @@ if b>c:
 print(a)
 print(b)
 print(c)
+FABINOCCI SERIES:
+num=int(input("Enter the range of the fabbinocci series"))
+a=0
+b=1
+print(a)
+print(b)
+for i in range(0:num-1)
+ c=a+b
+ print(c)
+ a=b
+ b=c
+ 
+
    
  
 
