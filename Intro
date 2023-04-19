@@ -29,3 +29,133 @@ e1 e2 output
 0   1  0
 1   1  1
 
+2nd class:
+CAMELCLASS:
+
+myNAmeIS:"swathi"
+Snake Case:
+my_name_is='swathi'
+  
+x,y,z=2,5,2
+x,y,z='swathi','tara','radika'
+x=y=z='swathi'
+print(x)
+
+LOOPING STATEMENTS:
+--------------------
+FOR:
+for(intialization;condition,updation)
+ colors=[black red green ]
+ for i in colors:
+  print(i)
+  
+  WHILE:
+ i=5
+ while i<=5:
+  print(i)
+  i+=1;
+  
+  PRINT THE PATTERN
+ 1
+ 12
+ 123
+ 1234
+ 12345
+ 
+ IN C:
+ 
+ for(i=1;i<=5;i++){
+  for(j=1;j<=i;j++){
+    printf(j)
+   }
+  }
+  IN PYTHON:
+  
+  for i in range(1,n+1):
+    for j in range[1,i+1]:
+      print(j end="")
+     print()
+
+1                                                }
+22
+333
+4444
+55555
+ 
+ IN C:
+ 
+ for(i=1;i<=5;i++){
+  for(j=1;j<=i;j++){
+    printf(j)
+   }
+  }
+  IN PYTHON:
+  
+  for i in range(1,n+1):
+    for j in range[1,i+1]:
+      print(j end="")
+     print()
+ PALINDROMME:
+ IN C:
+ temp=num;
+ while(num!=0){
+ rem=num%10;
+ rev=rev*10+rem;
+ num=num/10;
+ }
+
+IN PYTHON:
+
+num=191
+ temp=num
+ while num!=0 :
+  rem=num%10
+  rev=rev*10+rem
+  num=num/10
+ if temp==rev:
+  print('It is a palindromme')
+ else:
+  print('It is not a palindromme')
+  
+  while num!=0:
+    rem=num%10
+    sum=sum+rem*rem*rem
+    num=num//10
+   
+   print("sum")
+   
+   1.Calculate the are of the traingle ,sqaure,rechatngle
+   a=int(input("Enter the height of the triangle:"))
+b=int(input("Enter the breadth of the triangle:"))
+Area=(b*a)/2
+print(Area)
+a=int(input("Enter the side of the square"))
+Area=a*a
+print(Area)
+a=int(input("Enter the length of the triangle:"))
+b=int(input("Enter the breadth of the triangle:"))
+Area=(a*b)
+print(Area)
+   
+   SWAP 3 NUMBERS:
+   a,b,c=3,2,4
+if(a>c):
+    a=a+c
+    c=a-c
+    b=a-c
+if a>b:
+    a=a+b
+    b=a-b
+    a=a-b
+if b>c:
+    b=b+c
+    c=b-c
+    b=b-c
+print(a)
+print(b)
+print(c)
+   
+ 
+
+
+
