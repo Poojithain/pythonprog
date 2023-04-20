@@ -1,0 +1,163 @@
+STRINGS:
+---------------
+print("hari"s"): 0/p:hari"s
+print('hari's'):o/p:error
+print('hari''s'):o/p:hari s
+CONCATENATION:
+name:"chinni"
+greetings:"Good morning"
+print(name + greetings)
+o/p: chinniGood morning
+
+STRING SLICING:
+------------------
+name:pooja444
+print(name[0:-1])
+o/p:pooja444
+name:pooja4444
+print(name(-5:-1))
+o/p:a4444
+print(name[-8:-2])
+o/p:ooja44
+
+SLCING WITH SKIP VALUE:
+-------------------------
+name: "tuheed2000"
+print(name[0:5:1]) // 0to 5-1 and skip 1-1=0 skip
+o/p: tuhee
+print(name[0:6:2]) // 0 to 6-1=5 and skip 2-1=1 character
+o/p: tuhee
+print(name[0::6]) // from 0 to whole string the step value is 
+                       6-1=5 so we skipped 5 characters exclusing the first position mentioned 
+o/p:t2
+
+FUNCTIONS
+------------
+story='there was aking name ravindra and he had 3 queens and three children he was very brave'
+print(len(story))
+o/p:87
+
+print(story.endwith("radha"))
+o/p: False
+
+-> print(story.endwith("brave"))
+True
+-> print(story.count("a"))
+o/p:10
+->print(story.find("h"))// it shows te first h position
+o/p:1
+->print(story.replace("3","50"))
+there was aking name ravindra and he had 50 queens and three cjildren he was very brave
+
+LIST:
+------
+list=["sameer model",9.4.8,False,"preethi"]
+o/p:["sameer model",9.4.8,False,"preethi"]
+
+print(list[2])
+Flase
+
+list[0]=10001
+o/p:["10001",9.4.8,False,"preethi"]
+ print(list[0:2])
+ ["10001",9.4.8,False]
+ print(list[-3:-1])
+ [9.4,False]
+ saiolakshmi=["prasanna","sudarshana","radhika",7.7,False,22]
+ print(sailakshmi)
+ o/p:['prasanna','sudarshana','radhika',7.7,False,22]
+ 
+ SORT()
+ ---------
+ radhika=[44,5,66,6,4.5,False]
+ radhika.sort()
+ print(radhika)
+o/p:[5,6,7,8,44,66] 
+radhika.reverse()
+print(radhika)
+o/p:[66,44,8,7,6,5]
+l1=[2,3,4,5,6,78,99]
+
+l1=[2,3,4,5,6,78,99]
+l1.append(55)
+print(l1)
+o/p:[2,3,4,5,6,78,99,55]
+ l1.insert(0,1000000)
+ print(l1)
+ o/p:[1000000,2,3,4,5,6,78,99,55]
+
+ l1.remove(78) // REMOVE():it removes the specified element
+ print(l1)
+  o/p:[1000000,2,3,4,5,6,99,55]
+   l1.pop()
+   print(l1)
+   o/p:[10000000,2,3,4,5,6,99]
+   l1.pop(5)
+   print(l1)
+   o/p:[10000000,2,3,4,5,99]
+  print(l1.pop())
+  99
+   
+  TUPLE METHODS:
+  a=(1,2,3,4,5,1,1,1)
+  print(a.count(t))
+  o/p: 4
+   index method:
+   print(a.index(1))// gives th index of first one in the sequence
+   o/p:0
+   print(t.index(1,2))// position of "1" which is the 2nd time repeated
+   0/p:4             
+   print(t.index(1,-1))
+  7
+  
+  write a progrm to store seven fruits in a list entered by the user
+  fruit
+  f1=input("enter the fruit name1 ")
+  f2=input("Enter the fruit name2 ")
+  f3=input("Enter the fruit name3")
+  f4=input("Enter the fruit name4")
+  f5=input("Enter the fruit name5")
+  f6=input("Enter the fruit name6")
+  f7=input("Enetr the fruit name 7")
+  all=(f1,f2,f3,f4,f5,f6,f7)
+  print(all)
+  
+  
+  l = []
+for i in range(7):
+    l.append(input("Enter the name of the fruit: "))
+print(l)
+ 
+ ARRAY
+ ------
+ How to create arrays in python:
+ import array
+
+ from array import*
+ a=("i",[1,2,3,4,5,6,7])
+ a
+ o/P: ("i",[1,2,3,4,5,6,7]
+ #accesing array elements
+ #access elemests using ndex values
+ #indexing starts at 0 and not from 1.hnace the index number is always less than th length
+ #neagtive index values can be used as well. the point to remember the negitie index starts from reverse order
+  import array
+  a=("f",[3.4,5.6,6.7])
+  a
+  o/P:("f",[3.4,5.6,6.7])
+  print(len(a))
+  o/p:2
+  a.append(8.5)
+  o/p:
+  ERROR // because we cant modify the tuple
+  b=['a']
+  a.extend(b)
+  o/p:ERROR // We cannot modify the tuple because of the immutability
+  
+  
+
+ 
+ 
+
+
+
