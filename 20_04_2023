@@ -86,7 +86,7 @@ o/p:[2,3,4,5,6,78,99,55]
  print(l1)
  o/p:[1000000,2,3,4,5,6,78,99,55]
 
- l1.remove(78) // REMOVE():it removes the specified element
+ l1.remove(78) // REMOVE():it removes the specified element first occurencessss
  print(l1)
   o/p:[1000000,2,3,4,5,6,99,55]
    l1.pop()
