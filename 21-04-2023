@@ -46,4 +46,85 @@ o/p:[]                         list1.count('2')-> o/p:0
 5)pop()
 list1=[1,2,3,45,55,'a']
 pop
+print(list1.pop()) # pop method will remove the last element of list
+print(list1.pop())
+print(list1)
+
+print(list1.pop(0))
+print(list1)
+
+
+
+list2 = [2,2,10,23,43]
+print(list2)
+list2.reverse()
+print(list2)
+
+
+list2.sort() # sort the list in increasing order
+print(list2 , "this is the list after sorting")
+
+
+list2.sort(reverse = True)
+print(list2)
+
+
+list3 = [1,2,2,3,4,5]
+list3.remove(2)
+print(list3)
+
+EXCEPTION:                    errors:
+it occurs at run time          errors occur at  compiile 
+where as in python running compilig are done at the same time
+exception arises dut to the syntax error
+we can also say excwption is children of the error
+1)ZeroDivisionError
+------------------
+try:
+ x=1/0
+except ZeroDivisionError:
+ print("division by zero is not possible")
+ 1 case:
+ ******
+ try:                                                               |         
+  x=1/0                                                             |
+ except ImportERror:                                                |
+  print("import error")       // when the esception arises it       |
+                             wil look for rthe matching of the error| 
+ except EOFError:                                                   |
+  print("eof error")                                                |
+ except ZeroDividonError:                                           |
+  print("ZErodividon eroor") 
+  
+  
+  2 case
+  **********
+   try:                                                               |
+  x=1/0                                                             |
+ except ImportERror:                                                |
+  print("import error")      o/p: in this case tere no matched error which zero dividion error so here python comes into action and print inn the ouput that normal excution
+ except EOFError:
+  print("eof error")
+  
+  
+  3 case:
+  *******
+  try:
+   x=2/0
+    print("inside try")
+  except EOFError:
+   print("end of file error ")
+ except ImportError:                o/P: it will print nothing
+  print("import ERror")
+  else:
+  print("Control will print inside th else")
+
+finally block: finally will always get excuted
+try:
+ x=2/0
+execept ZeroDivisionError as err:   o/p: division by Zero
+ Print(err)                              in finally block
+finally:
+ print("in finally block")
+
 
