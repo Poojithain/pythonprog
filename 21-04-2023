@@ -133,3 +133,7 @@ RAISING EXCEPTION: (we can raise error intensionally by using 'raise keyword' )
 try:
  if len(arr)>=4:
   raise ValueError("array length is greater or equal to four")
+ else:
+  print("everything is fine")                                      arr[1,2,3,4,5]
+ except ValueError as err:                             o/p: case1: array length is greater or equal to four           
+  print(err)                                     arr=[2,3,4] o/p case2: everything is fine                                     
