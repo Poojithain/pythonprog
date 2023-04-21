@@ -137,3 +137,28 @@ try:
   print("everything is fine")                                      arr[1,2,3,4,5]
  except ValueError as err:                             o/p: case1: array length is greater or equal to four           
   print(err)                                     arr=[2,3,4] o/p case2: everything is fine                                     
+
+
+class CustomException(Exception):
+ "This is a custom exception"
+  pass
+try:
+  x=20
+  if x==20:
+       raise CustomException
+  elseee:
+       print("x is not 20")
+except CustomException as err
+    print("exception occured")
+
+
+
+
+
+
+
+
+
+
+
+
