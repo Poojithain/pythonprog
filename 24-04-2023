@@ -32,13 +32,76 @@ sum=addNumber(10,30)  //here the 10,30 are the parameters
   print(output)
   
   todayproblem: first n fabinocci series first n
- n=int(input())
+  ---------------------------------------------------
+ def printFibanocciseries(n):
+ if n<=0:
+    print("Invalid Input")
+    return -1
+ if n==1:
+    print("0")
+    return -1
+ if n==2:
+    print("0")
+    print("1")
+    return -1
  a=0
  b=1
- print(a)
- print(b)
- for i in range n+1:
+ print(a," ",b)
+ count=3
+ while count<=n:
     c=a+b
-    b=c
+    print(c,end="")
     a=b
-    print(c)
+    b=c
+    count+=1
+x=int(input("Entert he value upto ehich which you have to generate series"))
+printFibanocciseries(x)   
+
+
+code: for the lowest common factor            code:for the lowest common factor 
+--------------------------------------------|-------------------------------------
+                                            |
+def lcm(a,b)                                |
+  if a>b:                                   |
+    greater=a                               |
+  if a<b                                    |
+    greater=b                               |
+  while True:                               |
+      if(greater%a==0)and(grater%b==0):     |
+       return greater                       |
+       break                                |
+      greater+=1                            |
+  x=lcm(12,8)                               |
+  print("LCM of the two numbers is :"x)     |
+  
+  RECURSION:
+  -------------
+  def doJob(n):                             |def job(n):
+       if n<=2:                             |   if n<=5:
+           return                           |      return
+        print(n)                            |   job(n-1)
+        doJob(n-1)                          |   print(n)
+        print(n)                            |   print(n-1)
+  doJob(10)                                 |   print(n)
+  o/p:10 9 8 7 6 5 4 3 3 4 5 6 7 8 9 10     |job(8)       o/p:66766786676678
+        
+TOWE OF HANOI:
+--------------
+def printsteps(source,helper,destination,n)
+ if n<=0:
+    return
+ print(source,"to",helper)
+ print(sourc
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
