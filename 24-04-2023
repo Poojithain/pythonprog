@@ -30,3 +30,15 @@ sum=addNumber(10,30)  //here the 10,30 are the parameters
       return 10,20,30
   output=returningMultipleValues()       //we ca a;so return multiple values from the function in python
   print(output)
+  
+  todayproblem: first n fabinocci series first n
+ n=int(input())
+ a=0
+ b=1
+ print(a)
+ print(b)
+ for i in range n+1:
+    c=a+b
+    b=c
+    a=b
+    print(c)
