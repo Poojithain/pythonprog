@@ -1,0 +1,32 @@
+todays agenda:
+
+functions----------1)define  2)call 3)return  3)functons with and without return  4)recursive function
+  dictionaries,range,sstript,split,input,print
+   Functions are used in mainly in two scenarios 1)re-usability 2)clean readable and light weight
+         
+    syntax (for defining the function in python 
+         def function_name(): 
+   
+ code:                          |  def add():      
+def add():                      |      try :
+ a=10                           |           a=int(input())
+    b=20              o/p: 30   |      except ValueError as err
+    print(a+b)                  |          print(err)
+                                |       try:                        // Here there is chance of getting exception we are trying to catch it. if the user enters input something else instead of int so here the eeexception arises that we are trying to catch with it by value error
+                                |           b=int(input())
+                                |       except ValueError
+add()                           |           print(err)
+                                |       print(a+b)
+                                |   add()
+                                |
+                                |
+                                |
+def addNumber(a,b):  // here the a and b are the arguments
+    return a+b
+sum=addNumber(10,30)  //here the 10,30 are the parameters
+  
+  
+  def returningMultipleValues():
+      return 10,20,30
+  output=returningMultipleValues()       //we ca a;so return multiple values from the function in python
+  print(output)
