@@ -1,0 +1,13 @@
+agenda:
+--------
+dictionaries
+set
+recursion---------problem statements
+object oriented programming
+
+f(n)
+    if n<=10:return
+    print(n-1)
+    f(n-1)              o/P:12 11 10 10 11 12(tracing is writte in the notes))
+    print(n-1)
+    
