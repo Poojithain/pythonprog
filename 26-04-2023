@@ -51,7 +51,7 @@ class Book:
         
 -----------------------------------
 class Parent1:
-    def getName():
+    def getName(self):
         return "Parent1"
 class Parent2:
     def defParentName():
@@ -60,4 +60,33 @@ class Parent3:
      def getParentName():
          return "Parent 3"
 class Child(Parent1,Parent2,Parent3)
-     def getALLPArent():
+    def__init__(self):
+       self.getAlLParent()
+    def getALLParent(self__bases__:it gives the all parents name this attribute should use on the class but on the object
+        print("trying to get all paents of th is class")
+        parent_list=[]
+        for base in child.__bases__:
+            parent_list.append(base)
+        print(Parent_list)
+my_child=Child()
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
