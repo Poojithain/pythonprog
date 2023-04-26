@@ -1,0 +1,63 @@
+class Book:
+     numberOfModel=145
+     author="sudhan"
+     
+  def__init__(self,Zone,dob)
+     self.Zone=Zone
+     self.dob=dob
+  my_book=Book("Mystery","25-10-1998")        O/P:145
+  print(my_book.mumberOfPages)                    Mystery
+  print(my_book.Zone)                              25-10-1998      
+  print(my_book.dob)                        
+  
+  CONSTRUCTOR:
+  -----------------
+  WILL BE EXCUTED JUST BEFORE  CREATION OF NA OBJECT
+  WILL BE EXECUTE JUST BEFORE DESTRUCTION OF THE OBJECT
+  
+  how to call a destructor:
+  -----------------------------
+  class Book:
+     numberOfModel=145
+     author="sudhan"
+     
+  def__init__(self,Zone,dob)
+     self.Zone=Zone
+     self.dob=dob
+  def__del__(self)
+     print("destructor is called")
+  my_book=Book("Mystery","25-10-1998")        O/P:145
+  print(my_book.mumberOfPages)                    Mystery
+  print(my_book.Zone)                              25-10-1998
+  print(my_book.dob)                               destructor is called
+  del my_book
+  
+  INHERITANCE:
+  ---------------
+  Child class will have acces to parent class
+  
+  class School:
+     name="RJSIS"
+     age=13
+      def getAge(Self):
+          return self.age
+   class SubSchool(School):
+     def__init__(Self ):
+        print("child constructor')
+     def getParentName(self)
+        return "RJSIS'
+     def getNAMe(self)
+        return"Gyan sagar"
+        
+-----------------------------------
+class Parent1:
+    def getName():
+        return "Parent1"
+class Parent2:
+    def defParentName():
+        return "Parent"
+class Parent3:
+     def getParentName():
+         return "Parent 3"
+class Child(Parent1,Parent2,Parent3)
+     def getALLPArent():
