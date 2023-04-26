@@ -71,6 +71,79 @@ class Child(Parent1,Parent2,Parent3)
 my_child=Child()
 
 
+POLYMORPHISM : 
+-------------
+Function with the same name but different signature
+ def addNumbers(a,b)
+   print(a+b)
+ def addNumbers(a,b,c=2)
+   print(a+b+c)
+addNumbers(10,20)
+addNumbers(12,1,2)                whenever we pass arguments in variable length args then it would be taken as tuple
+                                
+                               
+def addNumbers2(*args):     by using variable length arguments it shows the behaviour of the polymorphoism
+    sum=0
+    for value in args:
+        sum+=value            
+                                
+addNumbers2(1)
+addNumbers2(1,2)
+addNumbers2(1,2,3)
+  
+  
+ def addNumbers(a,b)
+   print(a+b)
+ def addNumbers(a,*b)           o/P:10 20 ((10,30,40,20))
+   print(a+b+c)                    
+addNumbers(10,20)                  whenever we pass arguments in variable length args then it would be taken as tuple
+addNumbers(10,30,40,20)
+
+
+class Animal:
+     def printSomething(self):
+         print("aniamals are good in nature")
+     def canFly(self,name):
+         if(name=="tarak"):
+             print("tarak can fly")
+         else:
+             print("no animals can fly")
+ class Dog(Animal):
+       def canFly(Self):
+            print("dogs cannot fly")
+ class Tarak(Anikmal)
+       def
+       
+ class Library:
+      book=["The fauk=lt in out stars","Abang","citadel"]
+      author_book={ 
+           "Pablo":["escobar","escobar returns","escobar part3"]
+      def getAllbooks():
+          pass
+      def addBook():
+          pass
+      def getBookByAuthorName():
+          for key in author_book:
+            if key==author_name:
+                   print(author-book[key])////git hub lo rasaru anta
+          pass
+      def sortBooksInTopologicalOrder():
+          pass
+      def getAllSubscribers():
+          pass
+      def gerAllEarning()
+          pass
+      def getUnaviableBooks()
+          pass
+      def mapAuthorWithBook():
+          pass
+class MyLibraru(lilbrary):
+       #it can not have it own data structure to store the subscribers unaviable b  ooks
+       def getFaviourBook()
+            pass
+       
+
+
      
      
      
