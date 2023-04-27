@@ -1,0 +1,81 @@
+-- Creating database and its name.
+-- create database rgmcet;
+-- create table student(
+-- student_id int primary key not null,   -- primary key is someting that it is unique
+-- student_name varchar(30) not null,
+-- student_contact int not null,
+-- student_dept varchar(25)not null
+
+-- );
+
+-- select * from student
+-- INSERT INTO student(student_id, student_name, student_contact, student_dept)
+-- VALUES (101, "BMA", 8787878,"ECE");
+
+-- ANOTHER WAY TO GIVE VALUES INTO THE ATTRIBUTES THIS APPROACH IS SUGGESTABLE WHEN WE SURELY KNOW THE PARAMETERS
+-- INSERT INTO student VALUES(102,"Sai",99898999,"DS")
+-- INSERT INTO student VALUES(103,"POOJI",96898999,"ECE");
+-- INSERT INTO student VALUES(120,"SUSI",96898999,"ECE");
+-- INSERT INTO student VALUES(105,"MANI",96598999,"ECE");
+-- INSERT INTO student VALUES(106,"RAJI",96498999,"ECE");
+-- INSERT INTO student VALUES(107,"USI",96838999,"ECE");
+-- INSERT INTO student VALUES(108,"SIMMI",92898999,"ECE");
+-- INSERT INTO student VALUES(109,"MINI",96198999,"ECE");
+-- INSERT INTO student VALUES(110,"CHINI",90898999,"ECE");
+INSERT INTO student VALUES
+(130,"SUCHI",8987989,"ECE"),(121,"LEENA",8987609,"ECE");
+select * from student;
+
+O/P:
+104	SUSI	96898999	ECE
+105	MANI	96598999	ECE
+106	RAJI	96498999	ECE
+107	USI	96838999	ECE
+108	SIMMI	92898999	ECE
+109	MINI	96198999	ECE
+110	CHINI	90898999	ECE
+120	SUSI	96898999	ECE
+121	LEENA	8987609	ECE
+130	SUCHI	8987989	ECE
+
+TODAY TASK:
+Database - HeroVired
+
+Table - RGM
+Columns - Name, College, Session, Contact Number, Address
+
+
+10 entries........
+
+
+
+			
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
