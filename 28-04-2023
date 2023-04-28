@@ -1,0 +1,25 @@
+prvious day assignment was completed with hero vired database and the rgm1 table 
+create database herovired1;
+create table rgm1(
+  
+  
+  
+  
+  
+  
+  )
+  select*from rgm;
+  
+  o/p:
+  this is how the values in the table has been entered as shown in the table
+101	pooji	python	7989	ATP
+102	susi	python	7189	kld
+103	siri	sql	7939	hyd
+104	keerthi	aptitude	7981	vjw
+105	vyshu	java	1989	krnl
+
+
+--> select *from rgm.rgm1 where address="krnl" and name_student like "v%";
+o/p:
+105	vyshu	java	1989	krnl
+				
