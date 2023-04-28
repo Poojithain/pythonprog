@@ -1,6 +1,10 @@
 prvious day assignment was completed with hero vired database and the rgm1 table 
 create database herovired1;
 create table rgm1(
+student_id int primary key not null,   -- primary key is someting that it is unique
+name_student varchar(30) not null,
+sessions varchar(30)not null,
+-- student_dept varchar(25)not null
   
   
   
@@ -15,11 +19,27 @@ create table rgm1(
 101	pooji	python	7989	ATP
 102	susi	python	7189	kld
 103	siri	sql	7939	hyd
-104	keerthi	aptitude	7981	vjw
+104	keerthi	aptitude7981	vjw
 105	vyshu	java	1989	krnl
 
 
 --> select *from rgm.rgm1 where address="krnl" and name_student like "v%";
 o/p:
 105	vyshu	java	1989	krnl
-				
+
+
+
+
+
+
+
+
+
+
+IN:
+If we have to fetch multiple values we will be writing "in" it is different from "=" we can only check 
+OR:
+select* from rgm where college ="rgm" or college "vasavi"
+// ATLEAST ONE  VALUE IS mandatory 		
+
+
